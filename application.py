@@ -30,7 +30,7 @@ def predict_datapoint():
             similar_papers = []
             for paper in results['papers']['titles']:
                 similar_papers.append(paper)
-            return render_template('home.html', paper=similar_papers)
+            return render_template('research_papers.html', paper=similar_papers)
     
 
 if __name__ == "__main__":
