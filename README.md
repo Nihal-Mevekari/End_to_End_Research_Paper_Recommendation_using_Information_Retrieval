@@ -2,7 +2,7 @@
 #### A simple NLP and ML based website which recommends the best research papers similar to your research paper.
 
 ## DISCLAIMER ⚠️
-This is a POC(Proof of concept) kind-of project. The data used here comes up with no guarantee from the creator. However, this project presents the idea that how we can use NLP/ML into information retrieval if developed at large scale and with authentic and verified data.
+This is a POC(Proof of concept) kind-of project. However, this project presents the idea that how we can use NLP/ML into information retrieval if developed at large scale and with authentic and verified data.
 
 ## MOTIVATION 💪
 - Enhanced Search Capabilities: Traditional search systems often rely on keyword matching, which can be limited in understanding the context or nuances of queries. NLP and ML can improve the relevance of search results by understanding and processing natural language more effectively, leading to better user satisfaction and more accurate information retrieval.
