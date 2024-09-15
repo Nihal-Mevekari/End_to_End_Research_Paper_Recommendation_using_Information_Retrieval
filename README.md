@@ -5,15 +5,15 @@
 This is a POC(Proof of concept) kind-of project. The data used here comes up with no guarantee from the creator. However, this project presents the idea that how we can use NLP/ML into information retrieval if developed at large scale and with authentic and verified data.
 
 ## MOTIVATION 💪
-- 1. Enhanced Search Capabilities: Traditional search systems often rely on keyword matching, which can be limited in understanding the context or nuances of queries. NLP and ML can improve the relevance of search results by understanding and processing natural language more effectively, leading to better user satisfaction and more accurate information retrieval.
+- Enhanced Search Capabilities: Traditional search systems often rely on keyword matching, which can be limited in understanding the context or nuances of queries. NLP and ML can improve the relevance of search results by understanding and processing natural language more effectively, leading to better user satisfaction and more accurate information retrieval.
 
-- 2. Personalization: ML algorithms can analyze user behavior and preferences to personalize search results. By tailoring the information retrieval process to individual users, the system can provide more relevant content, improving engagement and user experience.
+- Personalization: ML algorithms can analyze user behavior and preferences to personalize search results. By tailoring the information retrieval process to individual users, the system can provide more relevant content, improving engagement and user experience.
 
-- 3. Scalability: NLP and ML techniques can handle large volumes of data and queries more efficiently than traditional methods. This scalability is crucial for systems that need to manage vast amounts of information, such as search engines, digital libraries, or customer support systems.
+- Scalability: NLP and ML techniques can handle large volumes of data and queries more efficiently than traditional methods. This scalability is crucial for systems that need to manage vast amounts of information, such as search engines, digital libraries, or customer support systems.
 
-- 4. Innovative Applications: Combining NLP and ML opens up opportunities for innovative applications, such as question-answering systems, chatbots, and automated summarization tools. These applications can enhance user interactions and provide new ways to access and utilize information.
+- Innovative Applications: Combining NLP and ML opens up opportunities for innovative applications, such as question-answering systems, chatbots, and automated summarization tools. These applications can enhance user interactions and provide new ways to access and utilize information.
 
-- 5. Competitive Advantage: Implementing cutting-edge NLP and ML techniques can give organizations a competitive edge by offering superior information retrieval capabilities compared to traditional systems. This can lead to better user retention, increased user satisfaction, and overall improved business performance.
+- Competitive Advantage: Implementing cutting-edge NLP and ML techniques can give organizations a competitive edge by offering superior information retrieval capabilities compared to traditional systems. This can lead to better user retention, increased user satisfaction, and overall improved business performance.
 
 
 ## DATA SOURCE 📊
@@ -39,13 +39,8 @@ This is a POC(Proof of concept) kind-of project. The data used here comes up wit
 #### This website is deployed at [AWS](https://aws.amazon.com/)
 
 ## How to use 💻
-- Crop Recommendation system ==> enter the corresponding nutrient values of your soil, state and city. Note that, the N-P-K (Nitrogen-Phosphorous-Pottasium) values to be entered should be the ratio between them. Refer [this website](https://www.gardeningknowhow.com/garden-how-to/soil-fertilizers/fertilizer-numbers-npk.htm) for more information.
-Note: When you enter the city name, make sure to enter mostly common city names. Remote cities/towns may not be available in the [Weather API](https://openweathermap.org/) from where humidity, temperature data is fetched.
-
-- Fertilizer suggestion system ==> Enter the nutrient contents of your soil and the crop you want to grow. The algorithm will tell which nutrient the soil has excess of or lacks. Accordingly, it will give suggestions for buying fertilizers.
-
-- Disease Detection System ==> Upload an image of leaf of your plant. The algorithm will tell the crop type and whether it is diseased or healthy. If it is diseased, it will tell you the cause of the disease and suggest you how to prevent/cure the disease accordingly.
-Note that, for now it only supports following crops
+- Research Paper Recommendation system ==> enter the any research paper based on ML/DL from our [dataset](https://www.kaggle.com/datasets/spsayakpaul/arxiv-paper-abstracts/data). The algorithm will recommend which research papers are relevant or similar to your research paper.
+Note: When you enter the research paper, make sure that paper name will be exactly as from the dataset. Otherwise, you will get "Invalid search". (Currently, the search functionality is limited to the data available within our database. We are committed to enhancing this feature in future updates.)
 
 
 ## How to run locally 🛠️
@@ -65,13 +60,6 @@ Note that, for now it only supports following crops
   python application.py
   ```
 - Open the localhost url provided after running `application.py` and now you can use the project locally in your web browser.
-## DEMO
-
-- ### Research Paper recommendation system
-
-![demo](https://media.giphy.com/media/90JbjdAa5nDq3TJh5u/giphy.gif)
-
-
 
 ## Usage ⚙️
 You can use this project for further developing it and adding your work in it. If you use this project, kindly mention the original source of the project and mention the link of this repo in your report.
