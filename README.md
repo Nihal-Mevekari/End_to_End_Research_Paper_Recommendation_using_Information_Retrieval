@@ -44,13 +44,16 @@ This is a POC(Proof of concept) kind-of project. The data used here comes up wit
 
 
 ## How to run locally 🛠️
-### STEP 1: Before the following steps make sure you have [git](https://git-scm.com/download), [Anaconda](https://www.anaconda.com/) or [miniconda](https://docs.conda.io/en/latest/miniconda.html) installed on your system
+### STEP 1: 
+Before the following steps make sure you have [git](https://git-scm.com/download), [Anaconda](https://www.anaconda.com/) or [miniconda](https://docs.conda.io/en/latest/miniconda.html) installed on your system
 
-### STEP 2: Clone the complete project with `git clone https://github.com/Nihal-Mevekari/End_to_End_Research_Paper_Recommendation_using_Information_Retrieval` or you can just download the code and unzip it
+### STEP 2: 
+Clone the complete project with `git clone https://github.com/Nihal-Mevekari/End_to_End_Research_Paper_Recommendation_using_Information_Retrieval` or you can just download the code and unzip it
   ```
   ❯ git clone -b deploy https://github.com/Nihal-Mevekari/End_to_End_Research_Paper_Recommendation_using_Information_Retrieval
   ```
-### STEP 3: Once the project is cloned, open anaconda prompt in the directory where the project was cloned and paste the following block
+### STEP 3: 
+Once the project is cloned, open anaconda prompt in the directory where the project was cloned and paste the following block
   ```
   conda create -p venv python==3.11.0 -y
   ```
@@ -65,7 +68,8 @@ This is a POC(Proof of concept) kind-of project. The data used here comes up wit
   ```
   python application.py
   ```
-### STEP 6: Open the localhost url provided after running `application.py` and now you can use the project locally in your web browser.
+### STEP 6: 
+Open the localhost url provided after running `application.py` and now you can use the project locally in your web browser.
 
 ## Usage ⚙️
 You can use this project for further developing it and adding your work in it. If you use this project, kindly mention the original source of the project and mention the link of this repo in your report.
